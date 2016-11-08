@@ -5,7 +5,7 @@ class CheckList extends Component {
     var tasks = this.props.tasks.map((task) => (
       <li key={task.id} className="checklist__task">
         <input type="checkbox" defaultChecked="" />
-        {task.name}
+        {task.name} is good!
         <a href="#" className="checklist__task--remove" />
       </li>
     ));

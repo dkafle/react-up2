@@ -21711,6 +21711,7 @@
 	          { key: task.id, className: "checklist__task" },
 	          _react2.default.createElement("input", { type: "checkbox", defaultChecked: "" }),
 	          task.name,
+	          " is good!",
 	          _react2.default.createElement("a", { href: "#", className: "checklist__task--remove" })
 	        );
 	      });
